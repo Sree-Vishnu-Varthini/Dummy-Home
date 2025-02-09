@@ -52,62 +52,62 @@ This seamless integration of hardware, cloud connectivity and automation enhance
 ## Pin Connections
 
 ### MQ-135 Air Quality Sensor
-| Sensor/Module | Sensor Pin | ARIES v3.0 Pin | Function |
-|--------------|-----------|---------------|----------|
-| **MQ-135 Air Quality Sensor** | VCC | 3.3V | Power |
-|  | GND | GND | Ground |
-|  | AOUT (Analog Output) | ADC_CH1 (J10_4) | Air Quality Detection |
+| Sensor Pin | ARIES v3.0 Pin | Function |
+|-----------|---------------|----------|
+| VCC | 3.3V | Power |
+| GND | GND | Ground |
+| AOUT (Analog Output) | ADC_CH1 (J10_4) | Air Quality Detection |
 
 
 ### DHT11 Temperature & Humidity Sensor
-| Sensor/Module | Sensor Pin | ARIES v3.0 Pin | Function |
-|--------------|-----------|---------------|----------|
-| **DHT11 Temperature & Humidity Sensor** | VCC | 3.3V | Power |
-|  | GND | GND | Ground |
-|  | DATA | GPIO3 (J2_16) | Temperature & Humidity |
+| Sensor Pin | ARIES v3.0 Pin | Function |
+|-----------|---------------|----------|
+| VCC | 3.3V | Power |
+| GND | GND | Ground |
+| DATA | GPIO3 (J2_16) | Temperature & Humidity |
 
 ### HC-SR501 PIR Sensor
-| Sensor/Module | Sensor Pin | ARIES v3.0 Pin | Function |
-|--------------|-----------|---------------|----------|
-| **HC-SR501 PIR Sensor** | VCC | 3.3V | Power |
-|  | GND | GND | Ground |
-|  | OUT | GPIO2 (J2_7) | Motion Detection |
+| Sensor Pin | ARIES v3.0 Pin | Function |
+|-----------|---------------|----------|
+| VCC | 3.3V | Power |
+| GND | GND | Ground |
+| OUT | GPIO2 (J2_7) | Motion Detection |
 
 ### ADIY Flame Sensor Module
-| Sensor/Module | Sensor Pin | ARIES v3.0 Pin | Function |
-|--------------|-----------|---------------|----------|
-| **ADIY Flame Sensor Module** | VCC | 3.3V | Power |
-|  | GND | GND | Ground |
-|  | OUT | GPIO4 (J2_14) | Fire Detection |
+| Sensor Pin | ARIES v3.0 Pin | Function |
+|-----------|---------------|----------|
+| VCC | 3.3V | Power |
+| GND | GND | Ground |
+| OUT | GPIO4 (J2_14) | Fire Detection |
 
 ### Light Dependent Resistor (LDR) Module
-| Sensor/Module | Sensor Pin | ARIES v3.0 Pin | Function |
-|--------------|-----------|---------------|----------|
-| **Light Dependent Resistor (LDR) Module** | One end of LDR | 3.3V | Power |
-|  | Other end of LDR | ADC_CH0 (J10_2) | Light Intensity (Analog Input) |
+| Sensor Pin | ARIES v3.0 Pin | Function |
+|-----------|---------------|----------|
+| One end of LDR | 3.3V | Power |
+| Other end of LDR | ADC_CH0 (J10_2) | Light Intensity (Analog Input) |
 
 ### 5V Piezoelectric Buzzer
-| Sensor/Module | Sensor Pin | ARIES v3.0 Pin | Function |
-|--------------|-----------|---------------|----------|
-| **5V Piezoelectric Buzzer** | VCC | 3.3V | Power |
-|  | GND | GND | Ground |
-|  | Signal | GPIO5 (J2_18) | Alarm/Alert |
+| Sensor Pin | ARIES v3.0 Pin | Function |
+|-----------|---------------|----------|
+| VCC | 3.3V | Power |
+| GND | GND | Ground |
+| Signal | GPIO5 (J2_18) | Alarm/Alert |
 
 ### I2C 16x2 LCD Display
-| Sensor/Module | Sensor Pin | ARIES v3.0 Pin | Function |
-|--------------|-----------|---------------|----------|
-| **I2C 16x2 LCD Display** | VCC | 3.3V | Power |
-|  | GND | GND | Ground |
-|  | SDA | GPIO6 | Data Line |
-|  | SCL | GPIO7 | Clock Line |
+| Sensor Pin | ARIES v3.0 Pin | Function |
+|-----------|---------------|----------|
+| VCC | 3.3V | Power |
+| GND | GND | Ground |
+| SDA | GPIO6 | Data Line |
+| SCL | GPIO7 | Clock Line |
 
 ### ESP8266 Wi-Fi Module
-| Sensor/Module | Sensor Pin | ARIES v3.0 Pin | Function |
-|--------------|-----------|---------------|----------|
-| **ESP8266 Wi-Fi Module** | VCC | 3.3V | Power |
-|  | GND | GND | Ground |
-|  | TX | RX (J3_2) | Transmit Data |
-|  | RX | TX (J3_3) | Receive Data |
+| Sensor Pin | ARIES v3.0 Pin | Function |
+|-----------|---------------|----------|
+| VCC | 3.3V | Power |
+| GND | GND | Ground |
+| TX | RX (J3_2) | Transmit Data |
+| RX | TX (J3_3) | Receive Data |
 
 ## Contributors
 - Sree Vishnu Varthini S, Pre-Final Year Student, Sri Eshwar College of Engineering.
