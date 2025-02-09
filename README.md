@@ -49,9 +49,9 @@ This seamless integration of hardware, cloud connectivity and automation enhance
 | **Jumper Wires**              | 1 set    | Male-to-male and female-to-male jumper wires   | [Jumper Wires](https://robu.in/product/20-cm-40-pin-dupont-male-male-male-female-female-female-cable-combo/) |
 | **Micro USB Cable**           | 1        | For programming and power supply               | [Micro USB Cable](https://robu.in/product/10-inch-micro-usb-cable-a-to-micro-b/) |
 
+## Pin Connections
 
-
-### Components List
+### MQ-135 Air Quality Sensor
 | Sensor/Module | Sensor Pin | ARIES v3.0 Pin | Function |
 |--------------|-----------|---------------|----------|
 | **MQ-135 Air Quality Sensor** | VCC | 3.3V | Power |
@@ -59,49 +59,49 @@ This seamless integration of hardware, cloud connectivity and automation enhance
 |  | AOUT (Analog Output) | ADC_CH1 (J10_4) | Air Quality Detection |
 
 
-### Components List
+### DHT11 Temperature & Humidity Sensor
 | Sensor/Module | Sensor Pin | ARIES v3.0 Pin | Function |
 |--------------|-----------|---------------|----------|
 | **DHT11 Temperature & Humidity Sensor** | VCC | 3.3V | Power |
 |  | GND | GND | Ground |
 |  | DATA | GPIO3 (J2_16) | Temperature & Humidity |
 
-### Components List
+### HC-SR501 PIR Sensor
 | Sensor/Module | Sensor Pin | ARIES v3.0 Pin | Function |
 |--------------|-----------|---------------|----------|
-| **PIR Motion Sensor** | VCC | 3.3V | Power |
+| **HC-SR501 PIR Sensor** | VCC | 3.3V | Power |
 |  | GND | GND | Ground |
 |  | OUT | GPIO2 (J2_7) | Motion Detection |
 
-### Components List
+### ADIY Flame Sensor Module
 | Sensor/Module | Sensor Pin | ARIES v3.0 Pin | Function |
 |--------------|-----------|---------------|----------|
-| **Fire (Flame) Sensor** | VCC | 3.3V | Power |
+| **ADIY Flame Sensor Module** | VCC | 3.3V | Power |
 |  | GND | GND | Ground |
 |  | OUT | GPIO4 (J2_14) | Fire Detection |
 
-### Components List
+### Light Dependent Resistor (LDR) Module
 | Sensor/Module | Sensor Pin | ARIES v3.0 Pin | Function |
 |--------------|-----------|---------------|----------|
-| **LDR Sensor** | One end of LDR | 3.3V | Power |
+| **Light Dependent Resistor (LDR) Module** | One end of LDR | 3.3V | Power |
 |  | Other end of LDR | ADC_CH0 (J10_2) | Light Intensity (Analog Input) |
 
-### Components List
+### 5V Piezoelectric Buzzer
 | Sensor/Module | Sensor Pin | ARIES v3.0 Pin | Function |
 |--------------|-----------|---------------|----------|
-| **Buzzer** | VCC | 3.3V | Power |
+| **5V Piezoelectric Buzzer** | VCC | 3.3V | Power |
 |  | GND | GND | Ground |
 |  | Signal | GPIO5 (J2_18) | Alarm/Alert |
 
-### Components List
+### I2C 16x2 LCD Display
 | Sensor/Module | Sensor Pin | ARIES v3.0 Pin | Function |
 |--------------|-----------|---------------|----------|
-| **LCD Display** | VCC | 3.3V | Power |
+| **I2C 16x2 LCD Display** | VCC | 3.3V | Power |
 |  | GND | GND | Ground |
 |  | SDA | GPIO6 | Data Line |
 |  | SCL | GPIO7 | Clock Line |
 
-### Components List
+### ESP8266 Wi-Fi Module
 | Sensor/Module | Sensor Pin | ARIES v3.0 Pin | Function |
 |--------------|-----------|---------------|----------|
 | **ESP8266 Wi-Fi Module** | VCC | 3.3V | Power |
