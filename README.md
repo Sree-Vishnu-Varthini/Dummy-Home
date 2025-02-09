@@ -3,6 +3,10 @@
 This repository presents the design and implementation of an IoT-powered Smart Home Automation System using various sensors and IoT platforms. It leverages real-time monitoring, automation and remote control to enhance home safety, energy efficiency and convenience.
 
 ## Contents
+- [Introduction](https://github.com/Sree-Vishnu-Varthini/Dummy-Home/Introduction)
+- [Overview](https://github.com/Sree-Vishnu-Varthini/Dummy-Home/Overview)
+  - [Components](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Components)
+  - [Implementation](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
 
 ## Introduction
 
