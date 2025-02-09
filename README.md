@@ -6,15 +6,15 @@ This repository presents the design and implementation of an IoT-powered Smart H
 
 ## Introduction
 
-In today's world, managing home safety, energy efficiency, and convenience can be challenging. Many homes lack an integrated system to automate daily tasks like adjusting lighting, monitoring air quality, detecting gas leaks, and responding to environmental changes. This project introduces an IoT-powered smart home system that makes your living space safer, smarter, and more efficient.
+In today's world, managing home safety, energy efficiency and convenience can be challenging. Many homes lack an integrated system to automate daily tasks like adjusting lighting, monitoring air quality, detecting gas leaks and responding to environmental changes. This project introduces an IoT-powered smart home system that makes your living space safer, smarter and more efficient.
 
-Traditional home management relies heavily on manual operation of lighting, ventilation, and security systems. Homeowners must physically switch appliances on and off, monitor air quality through observation, and rely on standalone smoke or gas detectors without centralized control. This fragmented approach often results in energy wastage, delayed hazard detection, and overall inconvenience, making home management inefficient and, at times, unsafe.
+Traditional home management relies heavily on manual operation of lighting, ventilation and security systems. Homeowners must physically switch appliances on and off, monitor air quality through observation and rely on standalone smoke or gas detectors without centralized control. This fragmented approach often results in energy wastage, delayed hazard detection and overall inconvenience, making home management inefficient and at times, unsafe.
 
-In contrast, the IoT-Powered Smart Home Automation System offers a modern, integrated solution to these challenges. It enables real-time monitoring, automation, and remote control through IoT connectivity. By streamlining home management, the system improves safety, reduces energy consumption, and simplifies daily tasks. This makes home operation more efficient, secure, and convenient for homeowners.
+In contrast, the IoT-Powered Smart Home Automation System offers a modern, integrated solution to these challenges. It enables real-time monitoring, automation and remote control through IoT connectivity. By streamlining home management, the system improves safety, reduces energy consumption and simplifies daily tasks. This makes home operation more efficient, secure and convenient for homeowners.
 
 ## Overview
 
-The IoT-Powered Smart Home Automation System is a sensor-driven, cloud-integrated solution designed to optimize energy efficiency, enhance safety, and provide real-time remote monitoring for modern households. The system consists of a network of IoT-enabled sensors and actuators that continuously monitor environmental conditions and automate home functions based on real-time data analytics.
+The IoT-Powered Smart Home Automation System is a sensor-driven, cloud-integrated solution designed to optimize energy efficiency, enhance safety and provide real-time remote monitoring for modern households. The system consists of a network of IoT-enabled sensors and actuators that continuously monitor environmental conditions and automate home functions based on real-time data analytics.
 
 The system is structured around a central microcontroller (ARIES v3.0), which serves as the primary processing unit, collecting data from multiple sensors and executing automation commands. 
 
@@ -25,11 +25,11 @@ Key hardware components include:
 ✅ **Fire and Smoke Detectors** – Detect leaks and fire hazards, triggering immediate safety alerts. <br>
 ✅ **Air Quality Sensors** – Monitor pollutants and adjust ventilation accordingly. <br>
 
-To enable real-time data transfer and remote control, the system utilizes Blynk, a cloud-based IoT platform that facilitates intelligent automation of various smart home functions. A user-friendly web and mobile application, built using Blynk’s IoT framework, allows homeowners to monitor sensor data, control devices, and receive instant alerts from anywhere.
+To enable real-time data transfer and remote control, the system utilizes Blynk, a cloud-based IoT platform that facilitates intelligent automation of various smart home functions. A user-friendly web and mobile application, built using Blynk’s IoT framework, allows homeowners to monitor sensor data, control devices and receive instant alerts from anywhere.
 
-In the event of a gas leak, fire, or deteriorating air quality, the system immediately notifies homeowners via Blynk app alerts, email logs, and SMS notifications. Additionally, automated safety measures, such as ventilation control, are activated to mitigate risks and ensure timely hazard prevention.
+In the event of a gas leak, fire or deteriorating air quality, the system immediately notifies homeowners via Blynk app alerts, email logs, and SMS notifications. Additionally, automated safety measures, such as ventilation control, are activated to mitigate risks and ensure timely hazard prevention.
 
-This seamless integration of hardware, cloud connectivity, and automation enhances home security, energy efficiency, and overall convenience.
+This seamless integration of hardware, cloud connectivity and automation enhances home security, energy efficiency and overall convenience.
 
 ## Components Required
 
@@ -117,7 +117,6 @@ This seamless integration of hardware, cloud connectivity, and automation enhanc
 ## Acknowledgements
 - Mr. Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
 - Mr. Vignesh, Technical Trainer, Sri Eshwar College of Engineering
-- Mr. Saravanan M, Assistant Professor and Head of System On Chip - Center of Excellence, Sri Eshwar College of Engineering
 
 ## Contact Information
 - Sree Vishnu Varthini S, Pre-Final Year Student, Sri Eshwar College of Engineering, sreevishnuvarthini@gmail.com
@@ -125,5 +124,4 @@ This seamless integration of hardware, cloud connectivity, and automation enhanc
 - Sri Krishna M, Pre-Final Year Student, Sri Eshwar College of Engineering, srikrishna0017@gmail.com
 - Mr. Vignesh, Technical Trainer, Sri Eshwar College of Engineering
 - Mr. Kunal Ghosh, Director, VSD Corp. Pvt. Ltd., kunalpghosh@gmail.com
-- Mr. Saravanan M, Assistant Professor and Head of System On Chip - Center of Excellence, Sri Eshwar College of Engineering, saravanan.m@sece.ac.in
 
