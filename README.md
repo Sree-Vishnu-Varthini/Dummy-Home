@@ -33,7 +33,7 @@ This seamless integration of hardware, cloud connectivity and automation enhance
 
 ## Components Required
 
-### Components List with Bill
+### Required Components and Bill of Materials
 
 | Item                          | Quantity | Description                                     | Links to Products |
 |-------------------------------|----------|-------------------------------------------------|-------------------|
