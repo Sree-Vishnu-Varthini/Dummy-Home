@@ -46,9 +46,9 @@ Key hardware components include:
 ✅ **Fire and Smoke Detectors** – Detect leaks and fire hazards, triggering immediate safety alerts. <br>
 ✅ **Air Quality Sensors** – Monitor pollutants and adjust ventilation accordingly. <br>
 
-To enable real-time data transfer and remote control, the system utilizes Blynk, a cloud-based IoT platform that facilitates intelligent automation of various smart home functions. A user-friendly web and mobile application, built using Blynk’s IoT framework, allows homeowners to monitor sensor data, control devices and receive instant alerts from anywhere.
+To enable real-time data transfer and remote control, the system utilizes Thingspeak, a cloud-based IoT platform that facilitates intelligent automation of various smart home functions. A user-friendly web and mobile application, built using Thingspeak’s IoT framework and Hostinger, allows homeowners to monitor sensor data, control devices and receive instant alerts from anywhere.
 
-In the event of a gas leak, fire or deteriorating air quality, the system immediately notifies homeowners via Blynk app alerts, email logs, and SMS notifications. Additionally, automated safety measures, such as ventilation control, are activated to mitigate risks and ensure timely hazard prevention.
+In the event of a gas leak, fire or deteriorating air quality, the system immediately notifies homeowners via IOT based alerts and notifications. Additionally, automated safety measures, such as ventilation control, are activated to mitigate risks and ensure timely hazard prevention.
 
 This seamless integration of hardware, cloud connectivity and automation enhances home security, energy efficiency and overall convenience.
 
@@ -56,7 +56,7 @@ This seamless integration of hardware, cloud connectivity and automation enhance
 🎯 Monitor environmental changes like air quality and respond accordingly. <br>
 🎯 Automate lighting, fans and ventilation based on motion, light, temperature, and humidity. <br>
 🎯 Detect gas leaks, fires, and poor air quality for early safety alerts.<br>
-🎯 Send real-time email and SMS notifications for critical events.<br>
+🎯 Send real-time notifications for critical events.<br>
 🎯 Enable remote monitoring and control via IoT platforms.<br>
 🎯 Help homeowners make informed decisions to reduce energy wastage and lower costs.<br>
 
@@ -75,16 +75,16 @@ This project is designed for individuals and organizations seeking to enhance ho
 📌 Motion and light-based automation for lighting, fans, and ventilation.<br>
 📌 Safety alerts for gas leaks, fires, and poor air quality.<br>
 📌 Real-time energy usage data and monitoring.<br>
-📌 Environmental sensors for detecting rain, air quality, temperature, and humidity.<br>
+📌 Environmental sensors for detecting air quality, temperature, and humidity.<br>
 📌 Remote monitoring and control via IoT platforms.<br>
-📌 Email and SMS notifications for critical events.<br>
+📌 IoT based notifications for critical events.<br>
 
 ## Technical Approach
-- **Hardware:** Various sensors to monitor motion, light, air quality, gas leaks, temperature, humidity and energy consumption.
+- **Hardware:** Various sensors to monitor motion, light, air quality, gas leaks, temperature and humidity.
 - **Software:** IoT and cloud integration for real-time data collection, automation and remote monitoring.
 - **Communication:** Wireless communication via Wi-Fi for seamless data transfer.
 - **Interface:** Mobile app and Web page for remote control and monitoring.
-- **Notifications:** Email and SMS alerts for safety events like gas leaks, fires, poor air quality, and rainfall.
+- **Notifications:** Iot based alerts for safety events like gas leaks, fires, poor air quality, and rainfall.
 
 
 ## Required Components and Bill of Materials
@@ -99,7 +99,6 @@ This project is designed for individuals and organizations seeking to enhance ho
 | **ADIY Flame Sensor Module**       | 1        | Detects flame or fire                          | [Fire Sensor](https://robu.in/product/flame-sensor-infrared-receiver-module-ignition-source-detection-module/) ||
 | **Light Dependent Resistor (LDR) Module**                | 1        | Detects light intensity                         | [LDR Sensor](https://robu.in/product/5mm-ldr-sensor-photoresistor-photo-cell-100-200k-gl5549/) ||
 | **5V Piezoelectric Buzzer**                    | 1        | Alarm/Alert system                             | [Buzzer](https://robu.in/product/5v-passive-buzzer/) ||
-| **I2C 16x2 LCD Display**               | 1        | Displays information                            | [LCD Display](https://robu.in/product/lcd1602-parallel-lcd-display-with-iic-i2c-interface/) ||
 | **Jumper Wires**              | 1 set    | Male-to-male and female-to-male jumper wires   | [Jumper Wires](https://robu.in/product/20-cm-40-pin-dupont-male-male-male-female-female-female-cable-combo/) ||
 | **Micro USB Cable**           | 1        | For programming and power supply               | [Micro USB Cable](https://robu.in/product/10-inch-micro-usb-cable-a-to-micro-b/) ||
 
@@ -155,15 +154,7 @@ This project is designed for individuals and organizations seeking to enhance ho
 | GND | GND | Ground |
 | Signal | GPIO14 (J3_5) | Alarm/Alert |
 
-### 7] I2C 16x2 LCD Display
-| Sensor Pin | ARIES v3.0 Pin | Function |
-|-----------|---------------|----------|
-| VCC | 3.3V | Power |
-| GND | GND | Ground |
-| SDA | GPIO6 (J2_10) | Data Line |
-| SCL | GPIO7 (J2_8) | Clock Line |
-
-### 8] ESP8266 Wi-Fi Module
+### 7] ESP8266 Wi-Fi Module
 | Sensor Pin | ARIES v3.0 Pin | Function |
 |-----------|---------------|----------|
 | VCC | 3.3V | Power |
@@ -178,12 +169,12 @@ This project is designed for individuals and organizations seeking to enhance ho
 
 ## Acknowledgements
 - Mr. Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
-- Mr. Vignesh, Technical Trainer, Sri Eshwar College of Engineering
+- Mr. Vignesh A, Research Scholar, Sri Eshwar College of Engineering
 
 ## Contact Information
 - Sree Vishnu Varthini S, Pre-Final Year Student, Sri Eshwar College of Engineering, sreevishnuvarthini@gmail.com
 - Shanmuga Sanjeevi P S, Pre-Final Year Student, Sri Eshwar College of Engineering, shanmugasanjeevi2004@gmail.com
 - Sri Krishna M, Pre-Final Year Student, Sri Eshwar College of Engineering, srikrishna0017@gmail.com
-- Mr. Vignesh, Technical Trainer, Sri Eshwar College of Engineering
+- Mr. Vignesh A, Research Scholar, Sri Eshwar College of Engineering, vignesh.a@sece.ac.in
 - Mr. Kunal Ghosh, Director, VSD Corp. Pvt. Ltd., kunalpghosh@gmail.com
 
