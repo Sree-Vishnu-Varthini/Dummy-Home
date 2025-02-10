@@ -292,9 +292,11 @@ void loop() {
 
 ### Fire Alarm
 
+https://github.com/user-attachments/assets/d61cbf85-8a01-4065-b9d7-003ee2cd630d
+
 ### Light Intensity Control (Light ON/OFF)
 
-
+https://github.com/user-attachments/assets/d8a27665-8dd0-4c48-a1c8-66d9cad4cc77
 
 ### Ventilation
 
@@ -302,6 +304,18 @@ void loop() {
 ### Motion Detection
 
 https://github.com/user-attachments/assets/49890077-9847-451e-918a-f1e012c9c470
+
+
+
+
+### Thingspeak Monitoring
+
+![Thingspeak Monitoring 1](https://github.com/user-attachments/assets/074efb72-e4f2-492f-be98-4b63b59a4ff0)
+
+![Thingspeak Monitoring 2](https://github.com/user-attachments/assets/baa732a2-ce27-40e7-8878-d7ecedf3b64a)
+
+![Thingspeak Monitoring 3](https://github.com/user-attachments/assets/0680aae4-5702-426a-8d14-8ec406153a37)
+
 
 ## Contributors
 - Sree Vishnu Varthini S, Pre-Final Year Student, Sri Eshwar College of Engineering.
