@@ -291,8 +291,17 @@ void loop() {
 ## Application Video
 
 ### Fire Alarm
+
+### Light Intensity Control (Light ON/OFF)
+
+
+
 ### Ventilation
+
+
 ### Motion Detection
+
+https://github.com/user-attachments/assets/49890077-9847-451e-918a-f1e012c9c470
 
 ## Contributors
 - Sree Vishnu Varthini S, Pre-Final Year Student, Sri Eshwar College of Engineering.
