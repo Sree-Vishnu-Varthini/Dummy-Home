@@ -87,8 +87,9 @@ This seamless integration of hardware, cloud connectivity and automation enhance
 ### Light Dependent Resistor (LDR) Module
 | Sensor Pin | ARIES v3.0 Pin | Function |
 |-----------|---------------|----------|
-| One end of LDR | 3.3V | Power |
-| Other end of LDR | ADC_CH0 (J10_2) | Light Intensity (Analog Input) |
+| VCC | 3.3V | Power |
+| GND | GND | Ground |
+| AO | ADC_CH0 (J10_2) | Light Intensity (Analog Input) |
 
 ### 5V Piezoelectric Buzzer
 | Sensor Pin | ARIES v3.0 Pin | Function |
