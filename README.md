@@ -5,8 +5,20 @@ This repository presents the design and implementation of an IoT-powered Smart H
 ## Contents
 - [Introduction](https://github.com/Sree-Vishnu-Varthini/Dummy-Home/Introduction)
 - [Overview](https://github.com/Sree-Vishnu-Varthini/Dummy-Home/Overview)
-  - [Components](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Components)
-  - [Implementation](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
+- [Goals and Objectives](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Components)
+- [Target Audience](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
+- [Key Features](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
+- [Required Components and Bill of Materials](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
+- [Pinout Connections](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
+  - [MQ-135 Air Quality Sensor](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
+  - [DHT11 Temperature & Humidity Sensor](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
+  - [HC-SR501 PIR Sensor](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
+  - [ADIY Flame Sensor Module](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
+  - [Light Dependent Resistor (LDR) Module](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
+  - [5V Piezoelectric Buzzer](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
+  - [I2C 16x2 LCD Display](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
+  - [ESP8266 Wi-Fi Module](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
+  - [Required Components and Bill of Materials](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
 
 ## Introduction
 
@@ -60,9 +72,7 @@ This seamless integration of hardware, cloud connectivity and automation enhance
 - Remote monitoring and control via IoT platforms.
 - Email and SMS notifications for critical events.
 
-## Components Required
-
-### Required Components and Bill of Materials
+## Required Components and Bill of Materials
 
 | Item                          | Quantity | Description                                     | Links to Products | Bill of Products |
 |-------------------------------|----------|-------------------------------------------------|-------------------|-------------------|
@@ -87,13 +97,12 @@ This seamless integration of hardware, cloud connectivity and automation enhance
 | GND | GND | Ground |
 | AOUT (Analog Output) | ADC_CH1 (J10_4) | Air Quality Detection |
 
-
 ### 2] DHT11 Temperature & Humidity Sensor
 | Sensor Pin | ARIES v3.0 Pin | Function |
 |-----------|---------------|----------|
 | VCC | 3.3V | Power |
 | GND | GND | Ground |
-| DATA | GPIO3 (J2_16) | Temperature & Humidity |
+| DATA | GPIO15 (J3_4) | Temperature & Humidity |
 
 ### 3] HC-SR501 PIR Sensor
 | Sensor Pin | ARIES v3.0 Pin | Function |
@@ -119,25 +128,24 @@ This seamless integration of hardware, cloud connectivity and automation enhance
 ### 6] 5V Piezoelectric Buzzer
 | Sensor Pin | ARIES v3.0 Pin | Function |
 |-----------|---------------|----------|
-| VCC | 3.3V | Power |
 | GND | GND | Ground |
-| Signal | GPIO5 (J2_18) | Alarm/Alert |
+| Signal | GPIO14 (J3_5) | Alarm/Alert |
 
 ### 7] I2C 16x2 LCD Display
 | Sensor Pin | ARIES v3.0 Pin | Function |
 |-----------|---------------|----------|
 | VCC | 3.3V | Power |
 | GND | GND | Ground |
-| SDA | GPIO6 | Data Line |
-| SCL | GPIO7 | Clock Line |
+| SDA | GPIO6 (J2_10) | Data Line |
+| SCL | GPIO7 (J2_8) | Clock Line |
 
 ### 8] ESP8266 Wi-Fi Module
 | Sensor Pin | ARIES v3.0 Pin | Function |
 |-----------|---------------|----------|
 | VCC | 3.3V | Power |
 | GND | GND | Ground |
-| TX | RX (J3_2) | Transmit Data |
-| RX | TX (J3_3) | Receive Data |
+| TX | RX (J2_15) | Transmit Data |
+| RX | TX (J2_13) | Receive Data |
 
 ## Block Diagram
 ![DIR-V HACKATHON 2](https://github.com/user-attachments/assets/d7b360af-fa94-41d3-ab6f-ab45c0b83994)
