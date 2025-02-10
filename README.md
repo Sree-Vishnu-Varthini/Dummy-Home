@@ -298,14 +298,16 @@ https://github.com/user-attachments/assets/d61cbf85-8a01-4065-b9d7-003ee2cd630d
 
 https://github.com/user-attachments/assets/d8a27665-8dd0-4c48-a1c8-66d9cad4cc77
 
+
+https://github.com/user-attachments/assets/a7c87fcd-87e8-4e0f-b2f3-a0556c34ada8
+
 ### Ventilation
 
+https://github.com/user-attachments/assets/8e39206d-2036-4223-8251-fb5d98c39daa
 
 ### Motion Detection
 
 https://github.com/user-attachments/assets/49890077-9847-451e-918a-f1e012c9c470
-
-
 
 
 ### Thingspeak Monitoring
