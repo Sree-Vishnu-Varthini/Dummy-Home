@@ -294,6 +294,8 @@ void loop() {
 
 https://github.com/user-attachments/assets/d61cbf85-8a01-4065-b9d7-003ee2cd630d
 
+![Fire Detection](https://github.com/user-attachments/assets/01892051-851a-424e-bbab-d0173c7e4849)
+
 ### Light Intensity Control (Light ON/OFF)
 
 https://github.com/user-attachments/assets/d8a27665-8dd0-4c48-a1c8-66d9cad4cc77
@@ -301,13 +303,21 @@ https://github.com/user-attachments/assets/d8a27665-8dd0-4c48-a1c8-66d9cad4cc77
 
 https://github.com/user-attachments/assets/a7c87fcd-87e8-4e0f-b2f3-a0556c34ada8
 
+![Light Intensity](https://github.com/user-attachments/assets/fed29bd8-92c5-43c1-b53f-8244606c48e8)
+
+
 ### Ventilation
 
 https://github.com/user-attachments/assets/8e39206d-2036-4223-8251-fb5d98c39daa
 
+![Ventilation](https://github.com/user-attachments/assets/7f73b655-8151-43f2-8948-1eaa1d40fc1a)
+
+
 ### Motion Detection
 
 https://github.com/user-attachments/assets/49890077-9847-451e-918a-f1e012c9c470
+
+![Motion Detection](https://github.com/user-attachments/assets/db2da071-9d90-44bc-93af-8020e7e6f023)
 
 
 ### Thingspeak Monitoring
