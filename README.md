@@ -56,6 +56,8 @@ This seamless integration of hardware, cloud connectivity and automation enhance
 - Help homeowners make informed decisions to reduce energy wastage and lower costs.
 
 ## Target Audience
+
+This project is designed for individuals and organizations seeking to enhance home safety, energy efficiency, and convenience through automation. The key target audiences include:
 - Homeowners
 - Families
 - Elderly residents
@@ -87,6 +89,15 @@ This seamless integration of hardware, cloud connectivity and automation enhance
 | **I2C 16x2 LCD Display**               | 1        | Displays information                            | [LCD Display](https://robu.in/product/lcd1602-parallel-lcd-display-with-iic-i2c-interface/) ||
 | **Jumper Wires**              | 1 set    | Male-to-male and female-to-male jumper wires   | [Jumper Wires](https://robu.in/product/20-cm-40-pin-dupont-male-male-male-female-female-female-cable-combo/) ||
 | **Micro USB Cable**           | 1        | For programming and power supply               | [Micro USB Cable](https://robu.in/product/10-inch-micro-usb-cable-a-to-micro-b/) ||
+
+
+## Block Diagram
+![DIR-V HACKATHON 2](https://github.com/user-attachments/assets/d7b360af-fa94-41d3-ab6f-ab45c0b83994)
+
+
+## Circuit Diagram
+![DIR-V HACKATHON](https://github.com/user-attachments/assets/e5f2397e-114e-4dda-8754-e83cf7e50b55)
+
 
 ## Pin Connections
 
@@ -146,13 +157,6 @@ This seamless integration of hardware, cloud connectivity and automation enhance
 | GND | GND | Ground |
 | TX | RX (J2_15) | Transmit Data |
 | RX | TX (J2_13) | Receive Data |
-
-## Block Diagram
-![DIR-V HACKATHON 2](https://github.com/user-attachments/assets/d7b360af-fa94-41d3-ab6f-ab45c0b83994)
-
-
-## Circuit Diagram
-![DIR-V HACKATHON](https://github.com/user-attachments/assets/e5f2397e-114e-4dda-8754-e83cf7e50b55)
 
 ## Contributors
 - Sree Vishnu Varthini S, Pre-Final Year Student, Sri Eshwar College of Engineering.
