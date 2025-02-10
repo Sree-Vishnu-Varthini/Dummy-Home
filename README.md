@@ -53,12 +53,12 @@ In the event of a gas leak, fire or deteriorating air quality, the system immedi
 This seamless integration of hardware, cloud connectivity and automation enhances home security, energy efficiency and overall convenience.
 
 ## Goals and Objectives
-- Monitor environmental changes like air quality and respond accordingly.
-- Automate lighting, fans and ventilation based on motion, light, temperature, and humidity.
-- Detect gas leaks, fires, and poor air quality for early safety alerts.
-- Send real-time email and SMS notifications for critical events.
-- Enable remote monitoring and control via IoT platforms.
-- Help homeowners make informed decisions to reduce energy wastage and lower costs.
+🎯 Monitor environmental changes like air quality and respond accordingly. <br>
+🎯 Automate lighting, fans and ventilation based on motion, light, temperature, and humidity. <br>
+🎯 Detect gas leaks, fires, and poor air quality for early safety alerts.<br>
+🎯 Send real-time email and SMS notifications for critical events.<br>
+🎯 Enable remote monitoring and control via IoT platforms.<br>
+🎯 Help homeowners make informed decisions to reduce energy wastage and lower costs.<br>
 
 ## Target Audience
 
@@ -72,19 +72,19 @@ This project is designed for individuals and organizations seeking to enhance ho
 - People with disabilities or mobility challenges
 
 ## Key Features
-- Motion and light-based automation for lighting, fans, and ventilation.
-- Safety alerts for gas leaks, fires, and poor air quality.
-- Real-time energy usage data and monitoring.
-- Environmental sensors for detecting rain, air quality, temperature, and humidity.
-- Remote monitoring and control via IoT platforms.
-- Email and SMS notifications for critical events.
+📌 Motion and light-based automation for lighting, fans, and ventilation.<br>
+📌 Safety alerts for gas leaks, fires, and poor air quality.<br>
+📌 Real-time energy usage data and monitoring.<br>
+📌 Environmental sensors for detecting rain, air quality, temperature, and humidity.<br>
+📌 Remote monitoring and control via IoT platforms.<br>
+📌 Email and SMS notifications for critical events.<br>
 
 ## Technical Approach
-- Hardware: Various sensors to monitor motion, light, air quality, gas leaks, temperature, humidity and energy consumption.
-- Software: IoT and cloud integration for real-time data collection, automation and remote monitoring.
-- Communication: Wireless communication via Wi-Fi for seamless data transfer.
-- Interface: Mobile app and Web page for remote control and monitoring.
-- Notifications: Email and SMS alerts for safety events like gas leaks, fires, poor air quality, and rainfall.
+- **Hardware:** Various sensors to monitor motion, light, air quality, gas leaks, temperature, humidity and energy consumption.
+- **Software:** IoT and cloud integration for real-time data collection, automation and remote monitoring.
+- **Communication:** Wireless communication via Wi-Fi for seamless data transfer.
+- **Interface:** Mobile app and Web page for remote control and monitoring.
+- **Notifications:** Email and SMS alerts for safety events like gas leaks, fires, poor air quality, and rainfall.
 
 
 ## Required Components and Bill of Materials
