@@ -9,6 +9,8 @@ This repository presents the design and implementation of an IoT-powered Smart H
 - [Target Audience](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
 - [Key Features](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
 - [Required Components and Bill of Materials](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
+- [Block Diagram](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
+- [Circuit Diagram](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
 - [Pinout Connections](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
   - [MQ-135 Air Quality Sensor](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
   - [DHT11 Temperature & Humidity Sensor](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
@@ -18,7 +20,6 @@ This repository presents the design and implementation of an IoT-powered Smart H
   - [5V Piezoelectric Buzzer](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
   - [I2C 16x2 LCD Display](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
   - [ESP8266 Wi-Fi Module](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
-  - [Required Components and Bill of Materials](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
 
 ## Introduction
 
