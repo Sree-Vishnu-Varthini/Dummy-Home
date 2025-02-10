@@ -35,6 +35,31 @@ In the event of a gas leak, fire or deteriorating air quality, the system immedi
 
 This seamless integration of hardware, cloud connectivity and automation enhances home security, energy efficiency and overall convenience.
 
+## Goals and Objectives
+- Monitor environmental changes like air quality and respond accordingly.
+- Automate lighting, fans and ventilation based on motion, light, temperature, and humidity.
+- Detect gas leaks, fires, and poor air quality for early safety alerts.
+- Send real-time email and SMS notifications for critical events.
+- Enable remote monitoring and control via IoT platforms.
+- Help homeowners make informed decisions to reduce energy wastage and lower costs.
+
+## Target Audience
+- Homeowners
+- Families
+- Elderly residents
+- Tenants
+- Property managers
+- Rental Owners
+- People with disabilities or mobility challenges
+
+## Key Features
+- Motion and light-based automation for lighting, fans, and ventilation.
+- Safety alerts for gas leaks, fires, and poor air quality.
+- Real-time energy usage data and monitoring.
+- Environmental sensors for detecting rain, air quality, temperature, and humidity.
+- Remote monitoring and control via IoT platforms.
+- Email and SMS notifications for critical events.
+
 ## Components Required
 
 ### Required Components and Bill of Materials
