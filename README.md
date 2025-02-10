@@ -107,9 +107,9 @@ This project is designed for individuals and organizations seeking to enhance ho
 ## Block Diagram
 ![DIR-V HACKATHON 2](https://github.com/user-attachments/assets/d7b360af-fa94-41d3-ab6f-ab45c0b83994)
 
+ ## Circuit Diagram
 
-## Circuit Diagram
-![DIR-V HACKATHON](https://github.com/user-attachments/assets/e5f2397e-114e-4dda-8754-e83cf7e50b55)
+![DIR-V HACKATHON](https://github.com/user-attachments/assets/2fca989c-28d0-4fb2-8e54-e434f656eb04)
 
 
 ## Pin Connections
