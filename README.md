@@ -114,6 +114,13 @@ This seamless integration of hardware, cloud connectivity and automation enhance
 | TX | RX (J3_2) | Transmit Data |
 | RX | TX (J3_3) | Receive Data |
 
+## Block Diagram
+![DIR-V HACKATHON 2](https://github.com/user-attachments/assets/d7b360af-fa94-41d3-ab6f-ab45c0b83994)
+
+
+## Circuit Diagram
+![DIR-V HACKATHON](https://github.com/user-attachments/assets/e5f2397e-114e-4dda-8754-e83cf7e50b55)
+
 ## Contributors
 - Sree Vishnu Varthini S, Pre-Final Year Student, Sri Eshwar College of Engineering.
 - Shanmuga Sanjeevi P S, Pre-Final Year Student, Sri Eshwar College of Engineering.
