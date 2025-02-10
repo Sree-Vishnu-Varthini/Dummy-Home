@@ -80,7 +80,7 @@ This seamless integration of hardware, cloud connectivity and automation enhance
 
 ## Pin Connections
 
-### MQ-135 Air Quality Sensor
+### 1] MQ-135 Air Quality Sensor
 | Sensor Pin | ARIES v3.0 Pin | Function |
 |-----------|---------------|----------|
 | VCC | 3.3V | Power |
@@ -88,42 +88,42 @@ This seamless integration of hardware, cloud connectivity and automation enhance
 | AOUT (Analog Output) | ADC_CH1 (J10_4) | Air Quality Detection |
 
 
-### DHT11 Temperature & Humidity Sensor
+### 2] DHT11 Temperature & Humidity Sensor
 | Sensor Pin | ARIES v3.0 Pin | Function |
 |-----------|---------------|----------|
 | VCC | 3.3V | Power |
 | GND | GND | Ground |
 | DATA | GPIO3 (J2_16) | Temperature & Humidity |
 
-### HC-SR501 PIR Sensor
+### 3] HC-SR501 PIR Sensor
 | Sensor Pin | ARIES v3.0 Pin | Function |
 |-----------|---------------|----------|
 | VCC | 3.3V | Power |
 | GND | GND | Ground |
 | OUT | GPIO2 (J2_7) | Motion Detection |
 
-### ADIY Flame Sensor Module
+### 4] ADIY Flame Sensor Module
 | Sensor Pin | ARIES v3.0 Pin | Function |
 |-----------|---------------|----------|
 | VCC | 3.3V | Power |
 | GND | GND | Ground |
 | OUT | GPIO4 (J2_14) | Fire Detection |
 
-### Light Dependent Resistor (LDR) Module
+### 5] Light Dependent Resistor (LDR) Module
 | Sensor Pin | ARIES v3.0 Pin | Function |
 |-----------|---------------|----------|
 | VCC | 3.3V | Power |
 | GND | GND | Ground |
 | AO | ADC_CH0 (J10_2) | Light Intensity (Analog Input) |
 
-### 5V Piezoelectric Buzzer
+### 6] 5V Piezoelectric Buzzer
 | Sensor Pin | ARIES v3.0 Pin | Function |
 |-----------|---------------|----------|
 | VCC | 3.3V | Power |
 | GND | GND | Ground |
 | Signal | GPIO5 (J2_18) | Alarm/Alert |
 
-### I2C 16x2 LCD Display
+### 7] I2C 16x2 LCD Display
 | Sensor Pin | ARIES v3.0 Pin | Function |
 |-----------|---------------|----------|
 | VCC | 3.3V | Power |
@@ -131,7 +131,7 @@ This seamless integration of hardware, cloud connectivity and automation enhance
 | SDA | GPIO6 | Data Line |
 | SCL | GPIO7 | Clock Line |
 
-### ESP8266 Wi-Fi Module
+### 8] ESP8266 Wi-Fi Module
 | Sensor Pin | ARIES v3.0 Pin | Function |
 |-----------|---------------|----------|
 | VCC | 3.3V | Power |
