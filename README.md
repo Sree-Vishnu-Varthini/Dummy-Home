@@ -167,6 +167,18 @@ This project is designed for individuals and organizations seeking to enhance ho
 
 ```
 #include <DHT.h>
+#include <ESP8266WiFi.h>
+#include <ThingSpeak.h>
+
+// WiFi Credentials
+const char* ssid = "YOUR_WIFI_SSID";   // Replace with your WiFi SSID
+const char* password = "YOUR_WIFI_PASSWORD";  // Replace with your WiFi Password
+
+// ThingSpeak Credentials
+const unsigned long CHANNEL_ID = YOUR_CHANNEL_ID;  // Replace with your ThingSpeak Channel ID
+const char* API_KEY = "YOUR_API_KEY";  // Replace with your ThingSpeak API Key
+
+WiFiClient client;
 
 // Pin Definitions for Sensors
 #define PIR_PIN 2         // PIR sensor connected to GPIO2 (J2_7)
@@ -189,6 +201,15 @@ DHT dht(DHTPIN, DHTTYPE); // Initialize DHT sensor
 
 void setup() {
     Serial.begin(115200);  // Start Serial Monitor
+
+    WiFi.begin(ssid, password);
+    Serial.print("Connecting to WiFi");
+    while (WiFi.status() != WL_CONNECTED) {
+        delay(1000);
+        Serial.print(".");
+    }
+    Serial.println("\nWiFi Connected!");
+    ThingSpeak.begin(client);  
 
     // Initialize Sensors as Inputs
     pinMode(PIR_PIN, INPUT);
@@ -281,6 +302,16 @@ void loop() {
     }
 
     Serial.println("-------------------------------------\n");
+
+    // Send Data to ThingSpeak
+    ThingSpeak.setField(1, temperature);
+    ThingSpeak.setField(2, humidity);
+    ThingSpeak.setField(3, lightValue);
+    ThingSpeak.setField(4, airQualityValue);
+    ThingSpeak.setField(5, motionState);
+    ThingSpeak.setField(6, fireState);
+
+    int status = ThingSpeak.writeFields(CHANNEL_ID, API_KEY);
 
     delay(3000);  // Wait 3 seconds before next reading
 }
