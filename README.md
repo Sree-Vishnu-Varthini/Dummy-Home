@@ -5,21 +5,25 @@ This repository presents the design and implementation of an IoT-powered Smart H
 ## Contents
 - [Introduction](https://github.com/Sree-Vishnu-Varthini/Dummy-Home/Introduction)
 - [Overview](https://github.com/Sree-Vishnu-Varthini/Dummy-Home/Overview)
-- [Goals and Objectives](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Components)
-- [Target Audience](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
-- [Key Features](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
-- [Required Components and Bill of Materials](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
-- [Block Diagram](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
-- [Circuit Diagram](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
-- [Pinout Connections](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
-  - [MQ-135 Air Quality Sensor](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
-  - [DHT11 Temperature & Humidity Sensor](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
-  - [HC-SR501 PIR Sensor](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
-  - [ADIY Flame Sensor Module](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
-  - [Light Dependent Resistor (LDR) Module](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
-  - [5V Piezoelectric Buzzer](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
-  - [I2C 16x2 LCD Display](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
-  - [ESP8266 Wi-Fi Module](https://github.com/Sree-Vishnu-Varthini/POR_SKY130/#Implementation)
+- [Goals and Objectives](https://github.com/Sree-Vishnu-Varthini/Dummy-Home/)
+- [Target Audience](https://github.com/Sree-Vishnu-Varthini/Dummy-Home/)
+- [Key Features](https://github.com/Sree-Vishnu-Varthini/Dummy-Home/)
+- [Technical Approach](https://github.com/Sree-Vishnu-Varthini/Dummy-Home/)
+- [Required Components and Bill of Materials](https://github.com/Sree-Vishnu-Varthini/Dummy-Home/)
+- [Block Diagram](https://github.com/Sree-Vishnu-Varthini/Dummy-Home/)
+- [Circuit Diagram](https://github.com/Sree-Vishnu-Varthini/Dummy-Home/)
+- [Pinout Connections](https://github.com/Sree-Vishnu-Varthini/Dummy-Home/)
+  - [MQ-135 Air Quality Sensor](https://github.com/Sree-Vishnu-Varthini/Dummy-Home/)
+  - [DHT11 Temperature & Humidity Sensor](https://github.com/Sree-Vishnu-Varthini/Dummy-Home/)
+  - [HC-SR501 PIR Sensor](https://github.com/Sree-Vishnu-Varthini/Dummy-Home/)
+  - [ADIY Flame Sensor Module](https://github.com/Sree-Vishnu-Varthini/Dummy-Home/)
+  - [Light Dependent Resistor (LDR) Module](https://github.com/Sree-Vishnu-Varthini/Dummy-Home/)
+  - [5V Piezoelectric Buzzer](https://github.com/Sree-Vishnu-Varthini/Dummy-Home/)
+  - [I2C 16x2 LCD Display](https://github.com/Sree-Vishnu-Varthini/Dummy-Home/)
+  - [ESP8266 Wi-Fi Module](https://github.com/Sree-Vishnu-Varthini/Dummy-Home/)
+- [Contributors](https://github.com/Sree-Vishnu-Varthini/Dummy-Home/)
+- [Acknowledgements](https://github.com/Sree-Vishnu-Varthini/Dummy-Home/)
+- [Contact Information](https://github.com/Sree-Vishnu-Varthini/Dummy-Home/)
 
 ## Introduction
 
@@ -74,6 +78,14 @@ This project is designed for individuals and organizations seeking to enhance ho
 - Environmental sensors for detecting rain, air quality, temperature, and humidity.
 - Remote monitoring and control via IoT platforms.
 - Email and SMS notifications for critical events.
+
+## Technical Approach
+- Hardware: Various sensors to monitor motion, light, air quality, gas leaks, temperature, humidity and energy consumption.
+- Software: IoT and cloud integration for real-time data collection, automation and remote monitoring.
+- Communication: Wireless communication via Wi-Fi for seamless data transfer.
+- Interface: Mobile app and Web page for remote control and monitoring.
+- Notifications: Email and SMS alerts for safety events like gas leaks, fires, poor air quality, and rainfall.
+
 
 ## Required Components and Bill of Materials
 
